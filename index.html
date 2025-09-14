@@ -70,6 +70,25 @@
       color: #fff;
       margin-top: 30px;
     }
+    .video-container {
+  position: relative;
+  padding-bottom: 56.25%; 
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+  background: #000;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
   </style>
 </head>
 <body>
@@ -101,6 +120,21 @@
       africaine à la pensée universelle sur la souveraineté et l’autodétermination.
     </p>
   </section>
+  
+  <section id="video">
+  <h2>Sur les traces du leader de la Révolution du Fuuta-Tooro</h2>
+  <p><strong>Ceerno Sileymaani Baal (1720–1776)</strong></p>
+  <div class="video-container">
+    <iframe width="560" height="315" 
+      src="https://www.youtube.com/embed/TvWUh5uxuXI" 
+      title="YouTube video player" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </div>
+</section>
+
 
   <section id="objectifs">
     <h2>Objectifs</h2>
@@ -223,6 +257,7 @@
   </footer>
 </body>
 </html>
+
 
 
 
